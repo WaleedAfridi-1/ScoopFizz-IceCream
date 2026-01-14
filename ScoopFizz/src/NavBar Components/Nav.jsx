@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from './Logo&Name.jsx'
 import Menu from './Menu.jsx'
-import LgMenu from './lgMenu.jsx'
+import LgMenu from './LgMenu.jsx'
 import FindScoopBtn from './FindScoopBtn.jsx'
 
 
