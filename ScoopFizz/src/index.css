@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+body {
+    background-color:linear-gradient(to bottom right, #ffe2ef50, #e9defc);
+}
+
+.Nav {
+    background: rgba(255, 255, 255, 0.966);
+}
+
+.SectionOne {
+    background: linear-gradient(to bottom right, #fff3d4bb, #e8dcff);
+}
+
+#content::-webkit-scrollbar {
+    display: none;
+}
+
+#ScoopedFreshDaily {
+    font-family: "Dancing Script";
+}
+
+
+#contentH1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.SectionTwo{
+    background: linear-gradient(to bottom right, #ede2ff65, #fcecde6c);
+}
+.Card {
+    background: linear-gradient(to bottom right, #ffe2efd1, #e9defc);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.Card:hover {
+    background: linear-gradient(to bottom right, #ffbcd9, #e2d5ff);
+}
+
+.OurStory {
+    /* background-color: rgba(229, 226, 252, 0.792); */
+    background: linear-gradient(to bottom right, #fff5d49d, #ffdce996);
+
+}
+.Footer{
+    background: linear-gradient(to bottom right, #ffffff9d, #ffffff96);
+
+}
