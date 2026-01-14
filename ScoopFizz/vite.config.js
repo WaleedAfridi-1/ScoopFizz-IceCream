@@ -5,11 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  build: {
-    rollupOptions: {
-      // ensure this path points to the actual index.html, or remove this option
-      input: '/ScoopFizz/index.html'
-    }
-  }
-
+  base:"./",
 })
