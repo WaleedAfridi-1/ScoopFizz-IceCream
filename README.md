@@ -2,8 +2,8 @@
 
 A modern, animated, and responsive front-end ice cream website built with **React** and **Framer Motion**. Designed using modular components, smooth transitions, and clean UI/UX principles. This project serves as a concept UI, portfolio showcase, and a scalable foundation for future e-commerce integration.
 
+
 🌐 **Live Demo:** https://scoopfizz-shop.netlify.app/  
-📁 **GitHub Repository:** https://github.com/WaleedAfridi-1/ScoopFizz-IceCream  
 
 ---
 
