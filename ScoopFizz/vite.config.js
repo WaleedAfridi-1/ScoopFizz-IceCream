@@ -7,9 +7,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'src/index.html') // adjust path if needed
-      }
+      // ensure this path points to the actual index.html, or remove this option
+      input: '/ScoopFizz/index.html'
     }
   }
 
