@@ -5,10 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  root: 'public', // change to the folder where index.html lives, e.g. 'src'
   build: {
-    outDir: '../dist', // ensures build output goes to project-root/dist
-    emptyOutDir: true
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'src/index.html') // adjust path if needed
+      }
+    }
   }
 
 })
